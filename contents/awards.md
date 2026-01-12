@@ -1,13 +1,15 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+- Provincial First-Prize, National Second-Prize, Chinese Physics Olympiad(CPHO). (全国中学生物理竞赛)
 
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
+  
 
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
+- Second-Prize, National Undergraduate Electronics Design Contest. (全国大学生电子设计竞赛)
 
-- Outstanding Undergraduate Thesis Award (Jiangsu Provincial Dept. of Education, China), 2022.
+- Second-Prize, IC-Innovation Challenge. (全国大学生集成电路创新创业大赛)
 
-- First-Prize Corporate Scholarship (CUMT), 2020.
+- Second-Prize, Siemens Cup China Intelligent Manufacturing Challenge, Western Region III. (“西门子杯”中国智能制造挑战赛)
 
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+- Second-Prize, National Undergraduate Embedded Chip and System Design Contest. (全国大学生嵌入式芯片与系统设计竞赛)
+
+- First-Prize, China Undergraduate Physics Experiment Competition(CUPEC). (全国大学生物理实验竞赛)
 

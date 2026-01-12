@@ -1,17 +1,14 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
-
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+He is currently a master's student at Zhejiang University.
 
 #### Contact
 
-Email: senli[at]fas.harvard.edu
+Email: yulu.wang[at]zju.edu.cn
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+M.E., Electronic Information Engineering, Zhejiang University, 2024–present.\
 
 #### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
+Time Series Analysis; Machine Learning in the Health Field; Causal Inference; Large Language Models
 
