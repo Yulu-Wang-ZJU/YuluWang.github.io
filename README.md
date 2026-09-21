@@ -1,6 +1,6 @@
 # Yulu Wang · Academic homepage
 
-Live site: https://yulu-wang-zju.github.io/YuluWang.github.io/
+Live site: https://yulu-wang-zju.github.io/
 
 A lightweight, responsive academic homepage for research and competition honors. The generated page works without JavaScript, external fonts, analytics, or a framework. Phone numbers, advisory roles, and private manuscript PDFs are intentionally not published.
 
