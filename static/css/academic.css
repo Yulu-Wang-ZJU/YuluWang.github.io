@@ -1,0 +1,129 @@
+:root {
+  --paper: #f8f9f6;
+  --ink: #203746;
+  --body: #46535a;
+  --muted: #68757a;
+  --accent: #24676a;
+  --line: #dce2df;
+  --serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", SimSun, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; background: var(--paper); color: var(--body); font-family: var(--sans); font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+::selection { background: #d4e7e3; color: var(--ink); }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+a:hover { color: var(--ink); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+.wrap { width: min(100% - 72px, 1030px); margin-inline: auto; }
+.skip-link { position: fixed; left: 16px; top: -80px; z-index: 10; background: white; padding: 10px 16px; }
+.skip-link:focus { top: 8px; }
+.site-header { border-bottom: 1px solid var(--line); }
+.site-nav { display: flex; justify-content: space-between; align-items: center; min-height: 80px; }
+.wordmark { color: var(--ink); text-decoration: none; font: bold 27px var(--serif); letter-spacing: -1.5px; }
+.wordmark span { color: var(--accent); }
+.nav-links { display: flex; gap: 31px; }
+.nav-links a { color: var(--muted); font-size: 13px; text-decoration: none; }
+.nav-links a:hover { color: var(--accent); text-decoration: underline; }
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) 164px; gap: 62px; padding: 69px 0 43px; align-items: start; }
+.eyebrow { margin: 0 0 18px; color: var(--accent); font-size: 10px; font-weight: 650; letter-spacing: 1.6px; }
+h1 { margin: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(42px, 4.6vw, 58px); font-weight: 400; line-height: 1.1; letter-spacing: -1.8px; }
+h1 span { display: inline-block; margin-left: 13px; font-family: var(--sans); font-size: 25px; font-weight: 400; letter-spacing: 3px; vertical-align: middle; }
+.role { margin: 17px 0 24px; color: var(--muted); font-size: 15px; }
+.biography p { margin: 0 0 14px; max-width: 735px; }
+.biography strong { color: var(--ink); font-weight: 600; }
+.biography .academic-note { color: var(--muted); font-size: 13px; line-height: 1.75; }
+.contact-links { display: flex; flex-wrap: wrap; column-gap: 26px; row-gap: 9px; align-items: center; margin-top: 27px; font-size: 13px; }
+.contact-links a { text-decoration: none; font-weight: 600; }
+.contact-links a:hover { text-decoration: underline; }
+.contact-links a span { margin-left: 7px; }
+.location { color: var(--muted); padding-left: 25px; border-left: 1px solid var(--line); }
+.portrait { margin: 6px 0 0; padding-top: 19px; }
+.portrait img { display: block; width: 150px; height: 200px; object-fit: cover; border: 1px solid #e8e9e6; }
+.portrait figcaption { margin-top: 14px; color: var(--muted); font-size: 7px; font-weight: 500; letter-spacing: 1.1px; white-space: nowrap; }
+.research-focus { display: flex; flex-wrap: wrap; gap: 14px 27px; align-items: center; border-block: 1px solid var(--line); padding: 18px 0; font-size: 12px; color: var(--ink); }
+.focus-label { color: var(--muted); font-size: 9px; letter-spacing: 1.2px; margin-right: 5px; }
+.content-section { padding-top: 48px; }
+.section-heading { display: flex; align-items: baseline; gap: 18px; margin-bottom: 25px; }
+.section-index { color: var(--accent); font-size: 10px; font-variant-numeric: tabular-nums; }
+h2 { margin: 0; color: var(--ink); font: 400 31px/1.3 var(--serif); letter-spacing: -.5px; }
+.section-heading p { margin: 6px 0 0; font-size: 12px; color: var(--muted); }
+.section-body { margin-left: 31px; }
+.paper { display: grid; grid-template-columns: 113px minmax(0, 1fr); gap: 24px; padding: 25px 0; border-top: 1px solid var(--line); }
+.paper-venue { padding-top: 2px; color: var(--accent); font-size: 12px; font-weight: 650; line-height: 1.55; }
+.paper-venue span { display: block; color: var(--muted); font-size: 10px; font-weight: 400; margin-top: 4px; }
+h3 { margin: 0 0 8px; color: var(--ink); font-size: 17px; font-weight: 600; line-height: 1.5; }
+.authors { margin: 0 0 9px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.authors strong { color: var(--body); font-weight: 600; }
+.paper-summary { margin: 0; font-size: 14px; line-height: 1.8; }
+.paper-links { display: flex; gap: 18px; margin: 11px 0 0; font-size: 12px; }
+.paper-links a { font-weight: 600; text-decoration: none; }
+.paper-links a:hover { text-decoration: underline; }
+.project { padding: 24px 0; border-top: 1px solid var(--line); }
+.project-heading { display: flex; gap: 10px 24px; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+.project-heading h3 { margin-bottom: 0; }
+.project-status { flex-shrink: 0; color: var(--accent); font-size: 11px; }
+.project-meta { margin: 7px 0 9px; color: var(--muted); font-size: 12px; }
+.project p:last-child { margin-bottom: 0; }
+.awards-section { padding-bottom: 56px; }
+.award { display: grid; grid-template-columns: 1fr 195px; gap: 20px; align-items: baseline; border-top: 1px solid var(--line); padding: 16px 0; }
+.award h3 { font-size: 14px; margin: 0; }
+.award .award-name-zh { margin: 3px 0 0; color: var(--muted); font-size: 11px; }
+.award .prize { margin: 0; text-align: right; color: var(--accent); font-size: 12px; }
+.site-footer { display: flex; justify-content: space-between; gap: 20px; padding-block: 22px 38px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+.site-footer p { margin: 0; }
+.site-footer p span { margin: 0 9px; }
+.site-footer a { text-decoration: none; color: var(--muted); }
+.site-footer a:hover { text-decoration: underline; }
+@media (max-width: 750px) {
+  .wrap { width: calc(100% - 40px); }
+  .site-nav { min-height: 68px; }
+  .nav-links { gap: 21px; }
+  .intro { gap: 30px; grid-template-columns: minmax(0, 1fr) 110px; padding-top: 42px; }
+  h1 { font-size: 43px; }
+  h1 span { display: block; margin: 13px 0 0; font-size: 21px; }
+  .portrait img { width: 105px; height: 140px; }
+  .portrait figcaption { white-space: normal; font-size: 7px; letter-spacing: 1px; }
+  .research-focus { column-gap: 20px; }
+  .focus-label { flex-basis: 100%; }
+  .section-body { margin-left: 0; }
+  .paper { grid-template-columns: 89px minmax(0, 1fr); gap: 15px; }
+  .project-heading { display: block; }
+  .project-status { display: inline-block; margin-top: 6px; }
+  .award { grid-template-columns: 1fr 147px; gap: 12px; }
+}
+@media (max-width: 500px) {
+  .intro { display: block; position: relative; padding-top: 36px; }
+  .eyebrow { max-width: 225px; font-size: 8px; line-height: 1.9; margin-bottom: 15px; }
+  h1 { max-width: calc(100% - 93px); font-size: 37px; letter-spacing: -1px; }
+  h1 span { font-size: 19px; margin-top: 13px; }
+  .role { max-width: calc(100% - 82px); margin-block: 18px 25px; font-size: 12px; }
+  .portrait { position: absolute; top: 62px; right: 0; width: 75px; padding: 0; margin: 0; }
+  .portrait img { width: 75px; height: 100px; }
+  .portrait figcaption { display: none; }
+  .biography { font-size: 14px; }
+  .location { padding-left: 0; border-left: 0; flex-basis: 100%; }
+  .research-focus { display: grid; gap: 8px; }
+  .research-focus .focus-label { margin-bottom: 4px; }
+  .section-heading { gap: 14px; }
+  .content-section { padding-top: 36px; }
+  h2 { font-size: 28px; }
+  .paper { display: block; padding-block: 22px; }
+  .paper-venue { margin-bottom: 12px; font-size: 11px; }
+  .paper-venue span { display: inline; margin-left: 12px; }
+  h3 { font-size: 16px; }
+  .award { display: block; }
+  .award .prize { text-align: left; margin-top: 7px; }
+  .site-footer { display: block; font-size: 10px; }
+  .site-footer a { display: inline-block; margin-top: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media print {
+  body { background: white; font-size: 10pt; }
+  .wrap { width: 100%; }
+  .site-header, .skip-link, .site-footer { display: none; }
+  .intro { padding-top: 0; }
+  .content-section { padding-top: 20px; }
+  .paper, .project, .award { break-inside: avoid; }
+  a { color: inherit; }
+}

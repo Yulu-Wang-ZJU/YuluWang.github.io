@@ -1,177 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
-    <title id="title"></title>
-
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- For Compatability -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yulu Wang, PhD student at Zhejiang University. Research in reliable machine learning, LLM reasoning, multimodal learning, and clinical AI.">
+  <meta name="author" content="Yulu Wang">
+  <meta name="theme-color" content="#f8f9f6">
+  <meta property="og:title" content="Yulu Wang · Research">
+  <meta property="og:description" content="Reliable machine learning, from sequential prediction to LLM reasoning and multimodal learning.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yulu-wang-zju.github.io/YuluWang.github.io/">
+  <link rel="canonical" href="https://yulu-wang-zju.github.io/YuluWang.github.io/">
+  <link rel="icon" type="image/svg+xml" href="static/assets/favicon.svg">
+  <link rel="stylesheet" href="static/css/academic.css">
+  <title>Yulu Wang · Research</title>
 </head>
-
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="site-nav wrap" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="Yulu Wang, back to top">YW<span>.</span></a>
+      <div class="nav-links">
+        <a href="#publications">Publications</a>
+        <a href="#ongoing">Ongoing</a>
+        <a href="#awards">Awards</a>
+      </div>
     </nav>
+  </header>
+  <main class="wrap" id="main">
+    <section class="intro" aria-labelledby="name">
+      <div class="intro-copy">
+        <p class="eyebrow">ZHEJIANG UNIVERSITY · ELECTRONIC INFORMATION</p>
+        <h1 id="name">Yulu Wang <span lang="zh-CN">王雨璐</span></h1>
+        <p class="role">PhD student &amp; machine learning researcher</p>
+        <div class="biography"><p>I am a PhD student in Electronic Information at <strong>Zhejiang University</strong>, pursuing a master&#39;s-to-PhD track since 2024. My research develops reliable learning methods for <strong>long-horizon prediction, LLM reasoning, and multimodal data</strong>.</p>
+<p>I study how models behave when observations are incomplete, conditions change, or prediction errors accumulate. My work spans stability analysis, uncertainty estimation, and clinical validation, building on an earlier background in FPGA and embedded systems.</p>
+<p class="academic-note">An academic visit to <a href="https://kanchen4552.github.io/">Prof. Kan Chen</a> at Weill Cornell Medicine, Cornell University, is planned for 2027; host acceptance has been confirmed.</p>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
+</div>
+        <div class="contact-links" aria-label="Contact and profiles">
+          <a href="mailto:yulu.wang@zju.edu.cn">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/Yulu-Wang-ZJU">GitHub <span aria-hidden="true">↗</span></a>
+          <span class="location">Hangzhou, China</span>
         </div>
+      </div>
+      <figure class="portrait">
+        <img src="static/assets/img/photo.png" alt="Portrait of Yulu Wang" width="150" height="200">
+        <figcaption>RESEARCH · SYSTEMS · SCIENCE</figcaption>
+      </figure>
     </section>
-    <!-- Top Section -->
-
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
+    <div class="research-focus" aria-label="Research areas">
+      <span class="focus-label">RESEARCH FOCUS</span>
+      <span>Reliable sequential learning</span>
+      <span>LLM reasoning &amp; uncertainty</span>
+      <span>Multimodal &amp; clinical AI</span>
     </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
+    <section class="content-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <span class="section-index" aria-hidden="true">01</span>
+        <div><h2 id="publications-title">Publications</h2><p>Accepted and published work.</p></div>
+      </div>
+      <div class="section-body publication-list"><article class="paper">
+  <div class="paper-venue">AAAI 2026<span>Accepted</span></div>
+  <div>
+    <h3>Neural Architecture for Fast and Reliable Coagulation Assessment in Clinical Settings: Leveraging Thromboelastography</h3>
+    <p class="authors"><strong>Yulu Wang</strong>, Ziqian Zeng, Jianjun Wu, Zhifeng Tang</p>
+    <p class="paper-summary">PSR reconstructs complete thromboelastography curves from partial observations, addressing limited data and distribution drift for faster coagulation assessment.</p>
+    <p class="paper-links"><a href="https://arxiv.org/abs/2601.07618">Paper ↗</a><a href="https://github.com/Yulu-Wang-ZJU/PSR-AAAI26">Code ↗</a></p>
+  </div>
+</article>
+
+<article class="paper">
+  <div class="paper-venue">WEVJ 2023<span>Vol. 14(9), 245</span></div>
+  <div>
+    <h3>An FPGA-based hardware low-cost, low-consumption target-recognition and sorting system</h3>
+    <p class="authors"><strong>Y. Wang</strong>, Y. Han, J. Chen, et al.</p>
+    <p class="paper-summary">An FPGA-based recognition and sorting system exploring low-cost, low-power hardware implementation and hardware–software co-design.</p>
+    <p class="paper-links"><a href="https://www.mdpi.com/2032-6653/14/9/245">Paper ↗</a></p>
+  </div>
+</article>
+
+
+
+
+</div>
     </section>
-    <!-- Home -->
+    <section class="content-section" id="ongoing" aria-labelledby="ongoing-title">
+      <div class="section-heading">
+        <span class="section-index" aria-hidden="true">02</span>
+        <div><h2 id="ongoing-title">Ongoing research</h2><p>Submitted manuscripts and work in progress.</p></div>
+      </div>
+      <div class="section-body project-list"><article class="project">
+  <div class="project-heading"><h3>LTTS</h3><span class="project-status">NeurIPS 2026 · Under review</span></div>
+  <p class="project-meta">Long-term Trajectory Stabilization: Controlling Error Propagation in Sequential Prediction · First author</p>
+  <p class="paper-summary">Combining temporal stabilization and adaptation to control error accumulation in long-horizon prediction, supported by a non-asymptotic error analysis and evaluation on synthetic and MIMIC-IV semi-synthetic data.</p>
+</article>
 
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
+<article class="project">
+  <div class="project-heading"><h3>TrajUQ</h3><span class="project-status">ICLR 2027 · Submitted</span></div>
+  <p class="project-meta">Predicting LLM Reasoning Failure under Limited Observation Budgets · First author</p>
+  <p class="paper-summary">Estimating the risk of reasoning failure from short continuation branches, with explicit attention to observation budgets and the distribution of branch-level signals.</p>
+</article>
 
-        </div>
+<article class="project">
+  <div class="project-heading"><h3>AIM-Fuse</h3><span class="project-status">Manuscript development</span></div>
+  <p class="project-meta">Cross-device calibration for micro-volume ultrasound thromboelastography · First author</p>
+  <p class="paper-summary">Mapping ultrasound TEG to conventional TEG curves and parameters. Current validation uses paired samples from two centers; additional multi-center data are being collected with institute, industry, and hospital collaborators.</p>
+  <p class="paper-links"><a href="https://github.com/Yulu-Wang-ZJU/AIM-Fuse">Code ↗</a></p>
+</article>
+
+<article class="project">
+  <div class="project-heading"><h3>BioAlign</h3><span class="project-status">In progress · Second author</span></div>
+  <p class="paper-summary">Learning shared and complementary information from images and 3D observations, and separating stable structure from state-responsive representations.</p>
+</article>
+
+<article class="project">
+  <div class="project-heading"><h3>BioAlign-3D</h3><span class="project-status">In progress · First author</span></div>
+  <p class="paper-summary">Investigating spatial representations, structural relations, and state semantics for three-dimensional reasoning and structure recovery.</p>
+</article>
+</div>
     </section>
-    <!-- Publications  -->
+    <section class="content-section awards-section" id="awards" aria-labelledby="awards-title">
+      <div class="section-heading">
+        <span class="section-index" aria-hidden="true">03</span>
+        <div><h2 id="awards-title">Selected honors</h2><p>Competitions in electronics, systems, and physics.</p></div>
+      </div>
+      <div class="section-body awards-list"><div class="award">
+  <div><h3>China Undergraduate Physics Experiment Competition</h3><p class="award-name-zh" lang="zh-CN">全国大学生物理实验竞赛</p></div>
+  <p class="prize">First Prize</p>
+</div>
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
+<div class="award">
+  <div><h3>National Undergraduate Electronics Design Contest</h3><p class="award-name-zh" lang="zh-CN">全国大学生电子设计竞赛</p></div>
+  <p class="prize">Second Prize</p>
+</div>
 
-        </div>
+<div class="award">
+  <div><h3>IC-Innovation Challenge</h3><p class="award-name-zh" lang="zh-CN">全国大学生集成电路创新创业大赛</p></div>
+  <p class="prize">Second Prize</p>
+</div>
+
+<div class="award">
+  <div><h3>National Undergraduate Embedded Chip and System Design Contest</h3><p class="award-name-zh" lang="zh-CN">全国大学生嵌入式芯片与系统设计竞赛</p></div>
+  <p class="prize">Second Prize</p>
+</div>
+
+<div class="award">
+  <div><h3>Chinese Physics Olympiad</h3><p class="award-name-zh" lang="zh-CN">全国中学生物理竞赛</p></div>
+  <p class="prize">Provincial First Prize<br>National Second Prize</p>
+</div>
+
+<div class="award">
+  <div><h3>Siemens Cup China Intelligent Manufacturing Challenge</h3><p class="award-name-zh" lang="zh-CN">“西门子杯”中国智能制造挑战赛</p></div>
+  <p class="prize">Second Prize<br>Western Region III</p>
+</div>
+
+</div>
     </section>
-    <!-- Awards -->
-
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
-    </footer>
-
+  </main>
+  <footer class="site-footer wrap">
+    <p>© 2026 Yulu Wang <span>·</span> Updated September 2026</p>
+    <a href="https://github.com/Yulu-Wang-ZJU/YuluWang.github.io">Website source <span aria-hidden="true">↗</span></a>
+  </footer>
 </body>
-
 </html>
