@@ -5,12 +5,6 @@
 </article>
 
 <article class="project">
-  <div class="project-heading"><h3>TrajUQ</h3><span class="project-status">ICLR 2027 · Submitted</span></div>
-  <p class="project-meta">Predicting LLM Reasoning Failure under Limited Observation Budgets · First author</p>
-  <p class="paper-summary">Estimating the risk of reasoning failure from short continuation branches, with explicit attention to observation budgets and the distribution of branch-level signals.</p>
-</article>
-
-<article class="project">
   <div class="project-heading"><h3>AIM-Fuse</h3><span class="project-status">Manuscript development</span></div>
   <p class="project-meta">Cross-device calibration for micro-volume ultrasound thromboelastography · First author</p>
   <p class="paper-summary">Mapping ultrasound TEG to conventional TEG curves and parameters. Current validation uses paired samples from two centers; additional multi-center data are being collected with institute, industry, and hospital collaborators.</p>
