@@ -1,7 +1,6 @@
 <article class="project">
-  <div class="project-heading"><h3>LTTS</h3><span class="project-status">NeurIPS 2026 · Under review</span></div>
-  <p class="project-meta">Long-term Trajectory Stabilization: Controlling Error Propagation in Sequential Prediction · First author</p>
-  <p class="paper-summary">Combining temporal stabilization and adaptation to control error accumulation in long-horizon prediction, supported by a non-asymptotic error analysis and evaluation on synthetic and MIMIC-IV semi-synthetic data.</p>
+  <div class="project-heading"><h3>Reliable Learning for Sequential Data</h3><span class="project-status">Ongoing research</span></div>
+  <p class="paper-summary">Exploring reliable learning and prediction for sequential data, with an emphasis on robustness and evaluation.</p>
 </article>
 
 <article class="project">

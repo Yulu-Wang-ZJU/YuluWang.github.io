@@ -16,7 +16,7 @@ Layout lives in `index.template.html`; visual styling lives in `static/css/acade
 ## Editorial rules
 
 - Accepted and published papers go in `publications.md`; submitted and developing work go in `ongoing.md`.
-- LTTS is currently displayed as **NeurIPS 2026 · Under review** on this public homepage. Keep this public-facing label until the author requests an update.
+- Review-sensitive ongoing work is described only through broad research directions. Do not add project acronyms, manuscript titles, venue or submission status, or identifying method and dataset details without the author's explicit request.
 - Do not describe a target venue as an acceptance or an incoming visit as a completed appointment.
 - BioAlign is second-author work; the other current main research projects are first-author work.
 - Do not infer missing coauthors or competition years.
